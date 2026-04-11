@@ -13,8 +13,8 @@ body {
   background: #f5f2ee;
 }
 
-a { color: #4a2c6e; text-decoration: underline; }
-a:hover { color: #7b4fa6; }
+a { color: #4F2683; text-decoration: underline; }
+a:hover { color: #7B52B8; }
 
 h1, h2, h3, h4 {
   font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -170,7 +170,7 @@ h1, h2, h3, h4 {
   content: "•";
   position: absolute;
   left: 0;
-  color: #4a2c6e;
+  color: #4F2683;
   font-weight: bold;
 }
 
@@ -276,7 +276,7 @@ h1, h2, h3, h4 {
 .pub-year-heading {
   font-size: 1.3rem;
   margin: 2rem 0 0.75rem;
-  color: #4a2c6e;
+  color: #4F2683;
 }
 
 /* --- People Page --- */
@@ -346,7 +346,7 @@ h1, h2, h3, h4 {
 .research-section h2 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
-  color: #4a2c6e;
+  color: #4F2683;
 }
 
 .research-section p { margin-bottom: 0.9rem; }
@@ -369,7 +369,7 @@ h1, h2, h3, h4 {
 }
 
 .site-footer p { margin-bottom: 0.25rem; }
-.site-footer a { color: #4a2c6e; }
+.site-footer a { color: #4F2683; }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
