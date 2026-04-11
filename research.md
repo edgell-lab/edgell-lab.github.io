@@ -16,7 +16,7 @@ permalink: /research/
     <img src="{{ '/assets/images/research_microbiome.jpg' | relative_url }}" alt="Microbiome — conjugation plasmid maps" />
   </div>
 
-  <div class="research-item research-item--center">
+  <div class="research-item">
     <h2>synthetic biology</h2>
     <img src="{{ '/assets/images/research_synthetic_biology.jpg' | relative_url }}" alt="Synthetic Biology — bacterial plates" />
   </div>
