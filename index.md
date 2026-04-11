@@ -21,27 +21,28 @@ title: Home
         human disease.
       </p>
       <p><a href="{{ '/research/' | relative_url }}">Learn more about our research &rarr;</a></p>
+
+      <div class="home-news">
+        <h2>news</h2>
+        <ul class="news-list">
+          {% for item in site.data.news %}
+          <li>
+            {% if item.url %}
+              {{ item.text | replace: item.link, '' | strip }}
+              <a href="{{ item.url }}" target="_blank">{{ item.link }}</a>
+            {% else %}
+              {{ item.text }}
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
+
     <div class="research-image">
       <img src="{{ '/assets/images/performative_students.jpeg' | relative_url }}" alt="Edgell Lab Students" />
       <img src="{{ '/assets/images/graphical_abstract.png' | relative_url }}" alt="Graphical Abstract" />
     </div>
-  </div>
-
-  <div class="home-news">
-    <h2>news</h2>
-    <ul class="news-list">
-      {% for item in site.data.news %}
-      <li>
-        {% if item.url %}
-          {{ item.text | replace: item.link, '' | strip }}
-          <a href="{{ item.url }}" target="_blank">{{ item.link }}</a>
-        {% else %}
-          {{ item.text }}
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
   </div>
 </div>
 

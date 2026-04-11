@@ -176,16 +176,15 @@ h1, h2, h3, h4 {
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 
-/* News below, left-aligned */
+/* News directly below research text */
 .home-news {
-  max-width: 560px;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
 }
 
 .home-news h2 {
   font-size: 1.6rem;
   font-weight: 900;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
   color: #1a1a1a;
 }
 
