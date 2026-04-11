@@ -5,7 +5,7 @@
 pi:
   - name: Dr. Dave Edgell
     role: Principal Investigator, Professor
-    photo: ""
+    photo: "dave-edgell.jpg"
     bio: "Professor in the Department of Biochemistry at Western University. Research focuses on gene editing and synthetic biology."
     email: dedgell@uwo.ca
 
