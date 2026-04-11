@@ -84,6 +84,9 @@ h1, h2, h3, h4 {
   height: 45px;
   width: auto;
   object-fit: contain;
+}
+
+.affil-logo--invert {
   filter: brightness(0) invert(1);
 }
 
