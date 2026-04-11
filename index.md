@@ -3,26 +3,31 @@ layout: default
 title: Home
 ---
 
-<div class="home-grid">
-  <div class="home-section">
-    <h2>our research</h2>
-    <p>
-      I am a Professor in the
-      <a href="https://www.schulich.uwo.ca/biochem/" target="_blank">Department of Biochemistry</a>
-      at <a href="https://www.uwo.ca" target="_blank">Western University</a>.
-      Trainees in my lab develop tools for gene editing and synthetic biology.
-    </p>
-    <p>
-      We use evolutionary, genetic, structural and biochemical approaches to
-      design, test and optimize CRISPR-based nucleases for precise and efficient
-      gene editing. We apply our tools to better enable genome editing in
-      eukaryotic algae, control of microbial populations, and treatment of
-      human disease.
-    </p>
-    <p><a href="{{ '/research/' | relative_url }}">Learn more about our research &rarr;</a></p>
+<div class="home-top">
+  <div class="home-research">
+    <div class="research-text">
+      <h2>our research</h2>
+      <p>
+        I am a Professor in the
+        <a href="https://www.schulich.uwo.ca/biochem/" target="_blank">Department of Biochemistry</a>
+        at <a href="https://www.uwo.ca" target="_blank">Western University</a>.
+        Trainees in my lab develop tools for gene editing and synthetic biology.
+      </p>
+      <p>
+        We use evolutionary, genetic, structural and biochemical approaches to
+        design, test and optimize CRISPR-based nucleases for precise and efficient
+        gene editing. We apply our tools to better enable genome editing in
+        eukaryotic algae, control of microbial populations, and treatment of
+        human disease.
+      </p>
+      <p><a href="{{ '/research/' | relative_url }}">Learn more about our research &rarr;</a></p>
+    </div>
+    <div class="research-image">
+      <img src="{{ '/assets/images/performative_students.jpeg' | relative_url }}" alt="Edgell Lab Students" />
+    </div>
   </div>
 
-  <div class="home-section">
+  <div class="home-news">
     <h2>news</h2>
     <ul class="news-list">
       {% for item in site.data.news %}

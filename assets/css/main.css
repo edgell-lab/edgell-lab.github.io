@@ -133,25 +133,50 @@ h1, h2, h3, h4 {
 }
 
 /* --- Home Page --- */
-.home-grid {
+.home-top {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 3rem 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  padding: 3rem 2rem 1rem;
 }
 
-.home-section h2 {
+/* Research blurb + image side by side */
+.home-research {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.research-text h2 {
   font-size: 1.6rem;
   font-weight: 900;
   margin-bottom: 1.2rem;
   color: #1a1a1a;
 }
 
-.home-section p {
+.research-text p {
   margin-bottom: 1rem;
-  text-align: justify;
+}
+
+.research-image img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+/* News below, left-aligned */
+.home-news {
+  max-width: 560px;
+  margin-bottom: 2rem;
+}
+
+.home-news h2 {
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 1.2rem;
+  color: #1a1a1a;
 }
 
 /* News */
@@ -374,9 +399,9 @@ h1, h2, h3, h4 {
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
-  .home-grid {
+  .home-research {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .lab-name { font-size: 1.4rem; }
