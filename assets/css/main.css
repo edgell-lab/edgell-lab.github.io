@@ -365,17 +365,46 @@ h1, h2, h3, h4 {
 }
 
 /* --- Research Page --- */
-.research-section {
-  margin-bottom: 3rem;
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 4rem;
+  margin-top: 1rem;
 }
 
-.research-section h2 {
+.research-item h2 {
   font-size: 1.4rem;
+  font-weight: 700;
   margin-bottom: 1rem;
-  color: #4F2683;
+  color: #1a1a1a;
+  text-transform: lowercase;
 }
 
-.research-section p { margin-bottom: 0.9rem; }
+.research-item img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.research-item--center {
+  grid-column: 1 / -1;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.research-item--center img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+  .research-item--center {
+    max-width: 100%;
+  }
+}
 
 /* --- Contact Page --- */
 .contact-info { margin-bottom: 2rem; }
