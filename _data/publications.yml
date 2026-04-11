@@ -1,23 +1,504 @@
-# Publications — newest first, grouped by year
-# Fields: title, authors, journal, year, doi, url, highlight (optional: true/false)
+# Publications — sorted newest first
+# Fields: title, authors, journal, year, url, highlight
 
-- title: "Genetic entanglement for microbial biocontainment"
-  authors: "Foo JL, Leong SSJ, Edgell DR"
+# --- 2026 ---
+- title: "Better data for better predictions: data curation improves deep learning for sgRNA/Cas9 prediction"
+  authors: "Browne TS, Edgell DR, Gloor GB"
+  journal: "PeerJ"
+  year: 2026
+  url: "https://pubmed.ncbi.nlm.nih.gov/41695711"
+  highlight: false
+
+- title: "Machine learning reveals sequence and methylation determinants of SaCas9-PAM interactions in bacteria"
+  authors: "Ham DT, Browne TS, Zhang CQ, Foo GW, Uruthirapathy AS, Gloor GB, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2026
+  url: "https://pubmed.ncbi.nlm.nih.gov/41538317"
+  highlight: true
+
+- title: "Modular determinants of cleavage preference in GIY-YIG nucleases revealed by block-based DNA shuffling and directed evolution"
+  authors: "Loedige KW, Hall MA, Ghimirey S, Stead BE, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2026
+  url: "https://pubmed.ncbi.nlm.nih.gov/41495900"
+  highlight: false
+
+# --- 2025 ---
+- title: "A buffer-tuning strategy to profile domain-specific activity of chimeric I-TevI/CRISPR gene editors in vitro"
+  authors: "Loedige KW, White AL, McMurrough TA, Stead BE, Edgell DR"
+  journal: "Scientific Reports"
+  year: 2025
+  url: "https://pubmed.ncbi.nlm.nih.gov/41315077"
+  highlight: false
+
+- title: "Genetic Entanglement Enables Ultrastable Biocontainment in the Mammalian Gut"
+  authors: "Foo GW, Uruthirapathy AS, Zhang CQ, Batko IZ, Heinrichs DE, Edgell DR"
+  journal: "ACS Synthetic Biology"
+  year: 2025
+  url: "https://pubmed.ncbi.nlm.nih.gov/40914949"
+  highlight: true
+
+- title: "Ku limits RNA-induced innate immunity to allow Alu expansion in primates"
+  authors: "Zhu Y, Li A, Maji S, Lee BJ, Korn SM, Gertie JA, Dorrity TJ, Wang J, Wang KJ, Pelletier A, Moakley DF, Kelly RD, Holmes AB, Rabadan R, Edgell DR, Schild-Poulter C, Modesti M, Steckelberg AL, Hendrickson EA, Chung H, Zhang C, Zha S"
+  journal: "Nature"
+  year: 2025
+  url: "https://pubmed.ncbi.nlm.nih.gov/40373806"
+  highlight: true
+
+# --- 2024 ---
+- title: "Intein-based thermoregulated meganucleases for containment of genetic material"
+  authors: "Foo GW, Leichthammer CD, Saita IM, Lukas ND, Batko IZ, Heinrichs DE, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2024
+  url: "https://pubmed.ncbi.nlm.nih.gov/38180814"
+  highlight: false
+
+# --- 2023 ---
+- title: "De Novo Synthesis of a Conjugative System from Human Gut Metagenomic Data for Targeted Delivery of Cas9 Antimicrobials"
+  authors: "Hamilton TA, Joris BR, Shrestha A, Browne TS, Rodrigue S, Karas BJ, Gloor GB, Edgell DR"
+  journal: "ACS Synthetic Biology"
+  year: 2023
+  url: "https://pubmed.ncbi.nlm.nih.gov/38049144"
+  highlight: false
+
+- title: "A generalizable Cas9/sgRNA prediction model using machine transfer learning with small high-quality datasets"
+  authors: "Ham DT, Browne TS, Banglorewala PN, Wilson TL, Michael RK, Gloor GB, Edgell DR"
   journal: "Nature Communications"
   year: 2023
-  url: "https://doi.org/10.1038/s41467-023-38982-7"
+  url: "https://pubmed.ncbi.nlm.nih.gov/37679324"
   highlight: true
 
-- title: "Production of the SARS-CoV-2 spike protein receptor-binding domain in the green alga Chlamydomonas reinhardtii"
-  authors: "Slattery SS, Wang H, Bhatt S, Giguere DJ, Howard DW, Edgell DR"
+- title: "Noncanonical functions of Ku may underlie essentiality in human cells"
+  authors: "Kelly RD, Parmar G, Bayat L, Maitland MER, Lajoie GA, Edgell DR, Schild-Poulter C"
+  journal: "Scientific Reports"
+  year: 2023
+  url: "https://pubmed.ncbi.nlm.nih.gov/37500706"
+  highlight: false
+
+- title: "Metabolically-targeted dCas9 expression in bacteria"
+  authors: "Pellegrino GM, Browne TS, Sharath K, Bari KA, Vancuren SJ, Allen-Vercoe E, Gloor GB, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2023
+  url: "https://pubmed.ncbi.nlm.nih.gov/36629257"
+  highlight: false
+
+# --- 2022 ---
+- title: "Editorial: Genetically mobile elements repurposed by nature and biotechnologists"
+  authors: "Lennon CW, Callahan BP, Cousineau B, Edgell DR, Belfort M"
+  journal: "Frontiers in Molecular Biosciences"
+  year: 2022
+  url: "https://pubmed.ncbi.nlm.nih.gov/36106021"
+  highlight: false
+
+- title: "Superior Conjugative Plasmids Delivered by Bacteria to Diverse Fungi"
+  authors: "Cochrane RR, Shrestha A, Severo de Almeida MM, Agyare-Tabbi M, Brumwell SL, Hamadache S, Meaney JS, Nucifora DP, Say HH, Sharma J, Soltysiak MPM, Tong C, Van Belois K, Walker EJL, Lachance MA, Gloor GB, Edgell DR, Shapiro RS, Karas BJ"
+  journal: "BioDesign Research"
+  year: 2022
+  url: "https://pubmed.ncbi.nlm.nih.gov/37850145"
+  highlight: false
+
+- title: "Telomere-to-telomere genome assembly of Phaeodactylum tricornutum"
+  authors: "Giguere DJ, Bahcheli AT, Slattery SS, Patel RR, Browne TS, Flatley M, Karas BJ, Edgell DR, Gloor GB"
+  journal: "PeerJ"
+  year: 2022
+  url: "https://pubmed.ncbi.nlm.nih.gov/35811822"
+  highlight: false
+
+- title: "Phosphate-regulated expression of the SARS-CoV-2 receptor-binding domain in the diatom Phaeodactylum tricornutum for pandemic diagnostics"
+  authors: "Slattery SS, Giguere DJ, Stuckless EE, Shrestha A, Briere LK, Galbraith A, Reaume S, Boyko X, Say HH, Browne TS, Frederick MI, Lant JT, Heinemann IU, O'Donoghue P, Dsouza L, Martin S, Howard P, Jedeszko C, Ali K, Styba G, Flatley M, Karas BJ, Gloor GB, Edgell DR"
   journal: "Scientific Reports"
   year: 2022
-  url: ""
+  url: "https://pubmed.ncbi.nlm.nih.gov/35487958"
   highlight: true
 
-- title: "An expanded suite of genetic tools for use in bacteria of the Bacteroidota phylum"
-  authors: "Hamilton JJ, Edgell DR"
-  journal: "Nature Communications"
+- title: "Conjugation-Based Genome Engineering in Deinococcus radiodurans"
+  authors: "Brumwell SL, Van Belois KD, Giguere DJ, Edgell DR, Karas BJ"
+  journal: "ACS Synthetic Biology"
   year: 2022
+  url: "https://pubmed.ncbi.nlm.nih.gov/35254818"
+  highlight: false
+
+# --- 2020 ---
+- title: "Cloning of Thalassiosira pseudonana's Mitochondrial Genome in Saccharomyces cerevisiae and Escherichia coli"
+  authors: "Cochrane RR, Brumwell SL, Shrestha A, Giguere DJ, Hamadache S, Gloor GB, Edgell DR, Karas BJ"
+  journal: "Biology"
+  year: 2020
+  url: "https://pubmed.ncbi.nlm.nih.gov/33114477"
+  highlight: false
+
+- title: "Plasmid-based complementation of large deletions in Phaeodactylum tricornutum biosynthetic genes generated by Cas9 editing"
+  authors: "Slattery SS, Wang H, Giguere DJ, Kocsis C, Urquhart BL, Karas BJ, Edgell DR"
+  journal: "Scientific Reports"
+  year: 2020
+  url: "https://pubmed.ncbi.nlm.nih.gov/32807825"
+  highlight: false
+
+# --- 2019 ---
+- title: "Trans-Kingdom Conjugation within Solid Media from Escherichia coli to Saccharomyces cerevisiae"
+  authors: "Soltysiak MPM, Meaney RS, Hamadache S, Janakirama P, Edgell DR, Karas BJ"
+  journal: "International Journal of Molecular Sciences"
+  year: 2019
+  url: "https://pubmed.ncbi.nlm.nih.gov/31640164"
+  highlight: false
+
+- title: "Modifying a covarying protein-DNA interaction changes substrate preference of a site-specific endonuclease"
+  authors: "Laforet M, McMurrough TA, Vu M, Brown CM, Zhang K, Junop MS, Gloor GB, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2019
+  url: "https://pubmed.ncbi.nlm.nih.gov/31602462"
+  highlight: false
+
+- title: "Efficient inter-species conjugative transfer of a CRISPR nuclease for targeted bacterial killing"
+  authors: "Hamilton TA, Pellegrino GM, Therrien JA, Ham DT, Bartlett PC, Karas BJ, Gloor GB, Edgell DR"
+  journal: "Nature Communications"
+  year: 2019
+  url: "https://pubmed.ncbi.nlm.nih.gov/31586051"
+  highlight: true
+
+- title: "Designer Sinorhizobium meliloti strains and multi-functional vectors enable direct inter-kingdom DNA transfer"
+  authors: "Brumwell SL, MacLeod MR, Huang T, Cochrane RR, Meaney RS, Zamani M, Matysiakiewicz O, Dan KN, Janakirama P, Edgell DR, Charles TC, Finan TM, Karas BJ"
+  journal: "PLOS ONE"
+  year: 2019
+  url: "https://pubmed.ncbi.nlm.nih.gov/31206509"
+  highlight: false
+
+# --- 2018 ---
+- title: "Active site residue identity regulates cleavage preference of LAGLIDADG homing endonucleases"
+  authors: "McMurrough TA, Brown CM, Zhang K, Hausner G, Junop MS, Gloor GB, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2018
+  url: "https://pubmed.ncbi.nlm.nih.gov/30357419"
+  highlight: false
+
+- title: "Delivery of the Cas9 or TevCas9 system into Phaeodactylum tricornutum via conjugation of plasmids from a bacterial donor"
+  authors: "Wang H, Slattery SS, Karas BJ, Edgell DR"
+  journal: "Bio-Protocol"
+  year: 2018
+  url: "https://pubmed.ncbi.nlm.nih.gov/34395776"
+  highlight: false
+
+- title: "mitoTev-TALE: a monomeric DNA editing enzyme to reduce mutant mitochondrial DNA levels"
+  authors: "Pereira CV, Bacman SR, Arguello T, Zekonyte U, Williams SL, Edgell DR, Moraes CT"
+  journal: "EMBO Molecular Medicine"
+  year: 2018
+  url: "https://pubmed.ncbi.nlm.nih.gov/30012581"
+  highlight: false
+
+- title: "Repression of branched-chain amino acid synthesis in Staphylococcus aureus is mediated by isoleucine via CodY, and by a leucine-rich attenuator peptide"
+  authors: "Kaiser JC, King AN, Grigg JC, Sheldon JR, Edgell DR, Murphy MEP, Brinsmade SR, Heinrichs DE"
+  journal: "PLOS Genetics"
+  year: 2018
+  url: "https://pubmed.ncbi.nlm.nih.gov/29357354"
+  highlight: false
+
+- title: "An Expanded Plasmid-Based Genetic Toolbox Enables Cas9 Genome Editing and Stable Maintenance of Synthetic Pathways in Phaeodactylum tricornutum"
+  authors: "Slattery SS, Diamond A, Wang H, Therrien JA, Lant JT, Jazey T, Lee K, Klassen Z, Desgagné-Penix I, Karas BJ, Edgell DR"
+  journal: "ACS Synthetic Biology"
+  year: 2018
+  url: "https://pubmed.ncbi.nlm.nih.gov/29298053"
+  highlight: false
+
+# --- 2017 ---
+- title: "Applications of Alternative Nucleases in the Age of CRISPR/Cas9"
+  authors: "Guha TK, Edgell DR"
+  journal: "International Journal of Molecular Sciences"
+  year: 2017
+  url: "https://pubmed.ncbi.nlm.nih.gov/29186020"
+  highlight: false
+
+- title: "Evolutionary and biogeographical implications of degraded LAGLIDADG endonuclease functionality and group I intron occurrence in stony corals (Scleractinia) and mushroom corals (Corallimorpharia)"
+  authors: "Celis JS, Edgell DR, Stelbrink B, Wibberg D, Hauffe T, Blom J, Kalinowski J, Wilke T"
+  journal: "PLOS ONE"
+  year: 2017
+  url: "https://pubmed.ncbi.nlm.nih.gov/28278261"
+  highlight: false
+
+# --- 2016 ---
+- title: "Biasing genome-editing events toward precise length deletions with an RNA-guided TevCas9 dual nuclease"
+  authors: "Wolfs JM, Hamilton TA, Lant JT, Laforet M, Zhang J, Salemi LM, Gloor GB, Schild-Poulter C, Edgell DR"
+  journal: "Proceedings of the National Academy of Sciences USA"
+  year: 2016
+  url: "https://pubmed.ncbi.nlm.nih.gov/27956611"
+  highlight: true
+
+- title: "Perpetuating the homing endonuclease life cycle: identification of mutations that modulate and change I-TevI cleavage preference"
+  authors: "Roy AC, Wilson GG, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2016
+  url: "https://pubmed.ncbi.nlm.nih.gov/27387281"
+  highlight: false
+
+# --- 2014 ---
+- title: "MegaTevs: single-chain dual nucleases for efficient gene disruption"
+  authors: "Wolfs JM, DaSilva M, Meister SE, Wang X, Schild-Poulter C, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2014
+  url: "https://pubmed.ncbi.nlm.nih.gov/25013171"
+  highlight: false
+
+- title: "Control of catalytic efficiency by a coevolving network of catalytic and noncatalytic residues"
+  authors: "McMurrough TA, Dickson RJ, Thibert SM, Gloor GB, Edgell DR"
+  journal: "Proceedings of the National Academy of Sciences USA"
+  year: 2014
+  url: "https://pubmed.ncbi.nlm.nih.gov/24912189"
+  highlight: false
+
+- title: "Unifying the analysis of high-throughput sequencing datasets: characterizing RNA-seq, 16S rRNA gene sequencing and selective growth experiments by compositional data analysis"
+  authors: "Fernandes AD, Reid JN, Macklaim JM, McMurrough TA, Edgell DR, Gloor GB"
+  journal: "Microbiome"
+  year: 2014
+  url: "https://pubmed.ncbi.nlm.nih.gov/24910773"
+  highlight: false
+
+- title: "The I-TevI nuclease and linker domains contribute to the specificity of monomeric TALENs"
+  authors: "Kleinstiver BP, Wang L, Wolfs JM, Kolaczyk T, McDowell B, Wang X, Schild-Poulter C, Bogdanove AJ, Edgell DR"
+  journal: "G3: Genes, Genomes, Genetics"
+  year: 2014
+  url: "https://pubmed.ncbi.nlm.nih.gov/24739648"
+  highlight: false
+
+- title: "Bacterial group I introns: mobile RNA catalysts"
+  authors: "Hausner G, Hafez M, Edgell DR"
+  journal: "Mobile DNA"
+  year: 2014
+  url: "https://pubmed.ncbi.nlm.nih.gov/24612670"
+  highlight: false
+
+- title: "Rapid screening of endonuclease target site preference using a modified bacterial two-plasmid selection"
+  authors: "Wolfs JM, Kleinstiver BP, Edgell DR"
+  journal: "Methods in Molecular Biology"
+  year: 2014
+  url: "https://pubmed.ncbi.nlm.nih.gov/24510263"
+  highlight: false
+
+# --- 2013 ---
+- title: "The monomeric GIY-YIG homing endonuclease I-BmoI uses a molecular anchor and a flexible tether to sequentially nick DNA"
+  authors: "Kleinstiver BP, Wolfs JM, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2013
+  url: "https://pubmed.ncbi.nlm.nih.gov/23558745"
+  highlight: false
+
+# --- 2012 ---
+- title: "Monomeric site-specific nucleases for genome editing"
+  authors: "Kleinstiver BP, Wolfs JM, Kolaczyk T, Roberts AK, Hu SX, Edgell DR"
+  journal: "Proceedings of the National Academy of Sciences USA"
+  year: 2012
+  url: "https://pubmed.ncbi.nlm.nih.gov/22566637"
+  highlight: false
+
+# --- 2011 ---
+- title: "Divalent metal ion differentially regulates the sequential nicking reactions of the GIY-YIG homing endonuclease I-BmoI"
+  authors: "Kleinstiver BP, Bérubé-Janzen W, Fernandes AD, Edgell DR"
+  journal: "PLOS ONE"
+  year: 2011
+  url: "https://pubmed.ncbi.nlm.nih.gov/21887323"
+  highlight: false
+
+- title: "Tapping natural reservoirs of homing endonucleases for targeted gene modification"
+  authors: "Takeuchi R, Lambert AR, Mak AN, Jacoby K, Dickson RJ, Gloor GB, Scharenberg AM, Edgell DR, Stoddard BL"
+  journal: "Proceedings of the National Academy of Sciences USA"
+  year: 2011
+  url: "https://pubmed.ncbi.nlm.nih.gov/21784983"
+  highlight: false
+
+- title: "Learning to live together: mutualism between self-splicing introns and their hosts"
+  authors: "Edgell DR, Chalamcharla VR, Belfort M"
+  journal: "BMC Biology"
+  year: 2011
+  url: "https://pubmed.ncbi.nlm.nih.gov/21481283"
+  highlight: false
+
+- title: "Assembly of a fragmented ribonucleotide reductase by protein interaction domains derived from a mobile genetic element"
+  authors: "Crona M, Moffatt C, Friedrich NC, Hofer A, Sjöberg BM, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2011
+  url: "https://pubmed.ncbi.nlm.nih.gov/20972217"
+  highlight: false
+
+# --- 2010 ---
+- title: "Estimating the evidence of selection and the reliability of inference in unigenic evolution"
+  authors: "Fernandes AD, Kleinstiver BP, Edgell DR, Wahl LM, Gloor GB"
+  journal: "Algorithms for Molecular Biology"
+  year: 2010
+  url: "https://pubmed.ncbi.nlm.nih.gov/21059250"
+  highlight: false
+
+- title: "Mobile DNA elements in T4 and related phages"
+  authors: "Edgell DR, Gibb EA, Belfort M"
+  journal: "Virology Journal"
+  year: 2010
+  url: "https://pubmed.ncbi.nlm.nih.gov/21029434"
+  highlight: false
+
+- title: "Subunit and small-molecule interaction of ribonucleotide reductases via surface plasmon resonance biosensor analyses"
+  authors: "Crona M, Furrer E, Torrents E, Edgell DR, Sjöberg BM"
+  journal: "Protein Engineering, Design and Selection"
+  year: 2010
+  url: "https://pubmed.ncbi.nlm.nih.gov/20534631"
+  highlight: false
+
+- title: "Better late than early: delayed translation of intron-encoded endonuclease I-TevI is required for efficient splicing of its host group I intron"
+  authors: "Gibb EA, Edgell DR"
+  journal: "Molecular Microbiology"
+  year: 2010
+  url: "https://pubmed.ncbi.nlm.nih.gov/20497330"
+  highlight: false
+
+- title: "A unified genetic, computational and experimental framework identifies functionally relevant residues of the homing endonuclease I-BmoI"
+  authors: "Kleinstiver BP, Fernandes AD, Gloor GB, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2010
+  url: "https://pubmed.ncbi.nlm.nih.gov/20061372"
+  highlight: false
+
+# --- 2009 ---
+- title: "Phage T4 mobE promotes trans homing of the defunct homing endonuclease I-TevIII"
+  authors: "Wilson GW, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2009
+  url: "https://pubmed.ncbi.nlm.nih.gov/19773422"
+  highlight: false
+
+- title: "Genes within genes: multiple LAGLIDADG homing endonucleases target the ribosomal protein S3 gene"
+  authors: "Sethuraman J, Majer A, Friedrich NC, Edgell DR, Hausner G"
+  journal: "Molecular Biology and Evolution"
+  year: 2009
+  url: ""
+  highlight: false
+
+- title: "Selfish DNA: homing endonucleases find a home"
+  authors: "Edgell DR"
+  journal: "Current Biology"
+  year: 2009
+  url: ""
+  highlight: false
+
+- title: "An RNA hairpin sequesters the ribosome binding site of the homing endonuclease mobE gene"
+  authors: "Gibb EA, Edgell DR"
+  journal: "Journal of Bacteriology"
+  year: 2009
+  url: ""
+  highlight: false
+
+# --- 2007 ---
+- title: "Strand-specific contacts and divalent metal ion regulate double-strand break formation by the GIY-YIG homing endonuclease I-BmoI"
+  authors: "Carter JM, Friedrich NC, Kleinstiver B, Edgell DR"
+  journal: "Journal of Molecular Biology"
+  year: 2007
+  url: ""
+  highlight: false
+
+- title: "Multiple controls regulate the expression of mobE, an HNH homing endonuclease gene"
+  authors: "Gibb EA, Edgell DR"
+  journal: "Journal of Bacteriology"
+  year: 2007
+  url: ""
+  highlight: false
+
+- title: "Insertion of a homing endonuclease creates a genes-in-pieces ribonucleotide reductase"
+  authors: "Friedrich NC, Torrents E, Gibb EA, Sahlin M, Sjöberg BM, Edgell DR"
+  journal: "Proceedings of the National Academy of Sciences USA"
+  year: 2007
+  url: ""
+  highlight: false
+
+# --- 2006 ---
+- title: "Distance determination by GIY-YIG intron endonucleases"
+  authors: "Liu Q, Derbyshire V, Belfort M, Edgell DR"
+  journal: "Nucleic Acids Research"
+  year: 2006
+  url: ""
+  highlight: false
+
+# --- 2004 ---
+- title: "Coincidence of cleavage sites of intron endonuclease I-TevI and critical sequences of the host group I intron"
+  authors: "Edgell DR, Stanger MJ, Belfort M"
+  journal: "Journal of Molecular Biology"
+  year: 2004
+  url: ""
+  highlight: false
+
+- title: "FhuD1, a ferric hydroxamate-binding lipoprotein in Staphylococcus aureus"
+  authors: "Sebulsky MT, Speziali CD, Shilton BH, Edgell DR, Heinrichs DE"
+  journal: "Journal of Biological Chemistry"
+  year: 2004
+  url: ""
+  highlight: false
+
+- title: "Intron-encoded homing endonuclease I-TevI also functions as a transcriptional autorepressor"
+  authors: "Edgell DR, Derbyshire V, Van Roey P, LaBonne S, Stanger MJ, Li Z, Boyd TM, Shub DA, Belfort M"
+  journal: "Nature Structural & Molecular Biology"
+  year: 2004
+  url: ""
+  highlight: false
+
+# --- 2003 ---
+- title: "SegG endonuclease promotes marker exclusion and mediates co-conversion from the phage T4 genome"
+  authors: "Liu Q, Belle A, Shub DA, Belfort M, Edgell DR"
+  journal: "Journal of Molecular Biology"
+  year: 2003
+  url: ""
+  highlight: false
+
+- title: "Importance of a single base pair for discrimination between intron-containing and intronless alleles by the homing endonuclease I-BmoI"
+  authors: "Edgell DR, Stanger MJ, Belfort M"
+  journal: "Current Biology"
+  year: 2003
+  url: ""
+  highlight: false
+
+# --- 2002 ---
+- title: "Selfish DNA: new abode for homing endonucleases"
+  authors: "Edgell DR"
+  journal: "Current Biology"
+  year: 2002
+  url: ""
+  highlight: false
+
+# --- 2001 ---
+- title: "Related homing endonucleases I-BmoI and I-TevI use different strategies to cleave homologous recognition sites"
+  authors: "Edgell DR, Shub DA"
+  journal: "Proceedings of the National Academy of Sciences USA"
+  year: 2001
+  url: ""
+  highlight: false
+
+# --- 2000 ---
+- title: "Barriers to intron promiscuity in bacteria"
+  authors: "Edgell DR, Belfort M, Shub DA"
+  journal: "Journal of Bacteriology"
+  year: 2000
+  url: ""
+  highlight: false
+
+# --- 1998 ---
+- title: "Evidence of independent gene duplications during the evolution of archaeal and eukaryotic family B DNA polymerases"
+  authors: "Edgell DR, Malik SB, Doolittle WF"
+  journal: "Molecular Biology and Evolution"
+  year: 1998
+  url: ""
+  highlight: false
+
+# --- 1997 ---
+- title: "Archaea and the origin(s) of DNA replication proteins"
+  authors: "Edgell DR, Doolittle WF"
+  journal: "Cell"
+  year: 1997
+  url: ""
+  highlight: false
+
+- title: "Gene duplications in evolution of archaeal family B DNA polymerases"
+  authors: "Edgell DR, Klenk HP, Doolittle WF"
+  journal: "Journal of Bacteriology"
+  year: 1997
+  url: ""
+  highlight: false
+
+# --- 1996 ---
+- title: "Selfish DNA: the best defense is a good offense"
+  authors: "Edgell DR, Fast NM, Doolittle WF"
+  journal: "Current Biology"
+  year: 1996
   url: ""
   highlight: false
