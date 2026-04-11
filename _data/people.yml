@@ -12,15 +12,29 @@ pi:
 postdocs: []
 
 grad_students:
-  - name: Gary Foo
+  - name: Lian Gai
     role: PhD Student
     photo: ""
-    bio: "Working on genetic entanglement for biocontainment."
 
-  - name: Shannon Slattery
-    role: PhD Student
+  - name: Aathavan Uruthirapathy
+    role: MSc Student
     photo: ""
-    bio: "Engineering algae for protein production and diagnostics."
+
+  - name: Amani Jaafar
+    role: MSc Student
+    photo: ""
+
+  - name: Mairwyn Hall
+    role: MSc Student
+    photo: ""
+
+  - name: Jaime Barrett
+    role: MSc Student
+    photo: ""
+
+  - name: Ben Greene
+    role: MSc Student
+    photo: ""
 
 undergrads: []
 
@@ -30,3 +44,9 @@ alumni:
 
   - name: Dr. Dalton Ham
     role: PhD (graduated 2023)
+
+  - name: Gary Foo
+    role: PhD
+
+  - name: Shannon Slattery
+    role: PhD

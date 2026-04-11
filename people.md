@@ -41,7 +41,7 @@ permalink: /people/
 </div>
 {% endif %}
 
-<h2 class="people-section-heading">Graduate Students</h2>
+<h2 class="people-section-heading">Current Graduate Trainees</h2>
 <div class="people-grid">
   {% for person in site.data.people.grad_students %}
   <div class="person-card">
