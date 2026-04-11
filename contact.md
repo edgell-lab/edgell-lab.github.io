@@ -18,7 +18,7 @@ permalink: /contact/
   London, Ontario, Canada</p>
 
   <p><strong>Twitter / X</strong><br>
-  <a href="https://twitter.com/EdgellLab" target="_blank">@EdgellLab</a></p>
+  <a href="https://twitter.com/megatev" target="_blank">@megatev</a></p>
 </div>
 
 <h2 style="font-size:1.3rem;margin-bottom:1rem">Prospective Students</h2>
