@@ -170,7 +170,7 @@ h1, h2, h3, h4 {
 }
 
 .research-image img {
-  width: 39%;
+  width: 100%;
   border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
