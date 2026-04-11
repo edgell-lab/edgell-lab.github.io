@@ -24,6 +24,7 @@ title: Home
     </div>
     <div class="research-image">
       <img src="{{ '/assets/images/performative_students.jpeg' | relative_url }}" alt="Edgell Lab Students" />
+      <img src="{{ '/assets/images/graphical_abstract.png' | relative_url }}" alt="Graphical Abstract" />
     </div>
   </div>
 
