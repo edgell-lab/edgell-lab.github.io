@@ -31,8 +31,8 @@ h1, h2, h3, h4 {
 
 /* --- Header --- */
 .site-header {
-  background: #f0ebe3;
-  border-bottom: 2px solid #d4c9bb;
+  background: #4F2683;
+  border-bottom: 2px solid #3a1a6e;
 }
 
 .header-inner {
@@ -56,7 +56,7 @@ h1, h2, h3, h4 {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 2rem;
   font-weight: 900;
-  color: #1a1a1a;
+  color: #ffffff;
   letter-spacing: -0.5px;
 }
 
@@ -64,7 +64,7 @@ h1, h2, h3, h4 {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
-  color: #555;
+  color: #e0d4f5;
   letter-spacing: 0.5px;
 }
 
@@ -94,8 +94,8 @@ h1, h2, h3, h4 {
 
 /* --- Navigation --- */
 .site-nav {
-  background: #e8e0d4;
-  border-top: 1px solid #d4c9bb;
+  background: #3a1a6e;
+  border-top: 1px solid #2e1258;
 }
 
 .site-nav ul {
@@ -114,7 +114,7 @@ h1, h2, h3, h4 {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
-  color: #333;
+  color: #f0eaff;
   border-radius: 20px;
   transition: background 0.2s, color 0.2s;
   margin: 0.4rem 0;
