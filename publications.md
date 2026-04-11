@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+<p class="scholar-link">Link to <a href="https://scholar.google.com/citations?user=J5Go8AMAAAAJ&hl=en" target="_blank">google scholar</a></p>
+
 {% assign sorted = site.data.publications | sort: "year" | reverse %}
 {% assign years = sorted | map: "year" | uniq %}
 

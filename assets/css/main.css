@@ -267,6 +267,16 @@ h1, h2, h3, h4 {
 }
 
 /* --- Publications Page --- */
+.scholar-link {
+  font-size: 0.9rem;
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+
+.scholar-link a {
+  color: #222;
+  font-weight: 600;
+}
 .pub-list { list-style: none; padding: 0; }
 
 .pub-entry {
