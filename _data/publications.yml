@@ -1,0 +1,23 @@
+# Publications — newest first, grouped by year
+# Fields: title, authors, journal, year, doi, url, highlight (optional: true/false)
+
+- title: "Genetic entanglement for microbial biocontainment"
+  authors: "Foo JL, Leong SSJ, Edgell DR"
+  journal: "Nature Communications"
+  year: 2023
+  url: "https://doi.org/10.1038/s41467-023-38982-7"
+  highlight: true
+
+- title: "Production of the SARS-CoV-2 spike protein receptor-binding domain in the green alga Chlamydomonas reinhardtii"
+  authors: "Slattery SS, Wang H, Bhatt S, Giguere DJ, Howard DW, Edgell DR"
+  journal: "Scientific Reports"
+  year: 2022
+  url: ""
+  highlight: true
+
+- title: "An expanded suite of genetic tools for use in bacteria of the Bacteroidota phylum"
+  authors: "Hamilton JJ, Edgell DR"
+  journal: "Nature Communications"
+  year: 2022
+  url: ""
+  highlight: false

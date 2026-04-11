@@ -1,0 +1,32 @@
+# Lab members
+# Sections: pi, postdocs, grad_students, undergrads, alumni
+# Fields: name, role, photo (filename in assets/images/), bio (optional), email (optional), twitter (optional)
+
+pi:
+  - name: Dr. Dave Edgell
+    role: Principal Investigator, Professor
+    photo: ""
+    bio: "Professor in the Department of Biochemistry at Western University. Research focuses on gene editing and synthetic biology."
+    email: dedgell@uwo.ca
+
+postdocs: []
+
+grad_students:
+  - name: Gary Foo
+    role: PhD Student
+    photo: ""
+    bio: "Working on genetic entanglement for biocontainment."
+
+  - name: Shannon Slattery
+    role: PhD Student
+    photo: ""
+    bio: "Engineering algae for protein production and diagnostics."
+
+undergrads: []
+
+alumni:
+  - name: Dr. Kurt Loedige
+    role: PhD (graduated 2024)
+
+  - name: Dr. Dalton Ham
+    role: PhD (graduated 2023)

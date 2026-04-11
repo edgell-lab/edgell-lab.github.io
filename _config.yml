@@ -1,0 +1,35 @@
+title: The Edgell Lab
+description: Gene Editing & Synthetic Biology — Schulich Medicine & Dentistry, Western University
+url: "https://edgell-lab.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: Dr. Dave Edgell
+  email: dedgell@uwo.ca
+
+# Navigation
+nav_pages:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: People
+    url: /people/
+  - title: Contact
+    url: /contact/
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore

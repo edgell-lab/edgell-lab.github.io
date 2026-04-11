@@ -1,0 +1,18 @@
+# News items — newest first
+# Each item: text (required), link (optional), url (optional)
+
+- text: "Congrats to Dr. Kurt Loedige for a successful PhD thesis defence!"
+  date: 2024-01-01
+
+- text: "Congrats to Dr. Dalton Ham for successfully defending his PhD thesis!!"
+  date: 2023-06-01
+
+- text: "Check out our paper on genetic entanglement for biocontainment by Gary Foo."
+  link: "paper on genetic entanglement"
+  url: "https://doi.org/10.1038/s41467-023-38982-7"
+  date: 2023-05-01
+
+- text: "Our paper on using algae to make the COVID-19 receptor binding domain for diagnostics was selected as one of the Top 100 papers in 2022 by Scientific Reports!!"
+  link: "Top 100 papers in 2022 by Scientific Reports"
+  url: "https://www.nature.com/collections/scientific-reports-top-100-2022"
+  date: 2022-12-01
