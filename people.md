@@ -58,7 +58,7 @@ permalink: /people/
 </ul>
 
 <div class="student-of-month">
-  <h3 class="sotm-heading">Student of the month</h3>
+  <h3 class="sotm-heading">Oliver, student of the month</h3>
   <img src="{{ '/assets/images/oliver.jpg' | relative_url }}" alt="Student of the Month" />
 </div>
 
