@@ -12,6 +12,9 @@ pi:
 postdocs: []
 
 grad_students:
+  - name: Emily Stuckless
+    role: PhD Student
+
   - name: Lian Gai
     role: PhD Student
     photo: ""
