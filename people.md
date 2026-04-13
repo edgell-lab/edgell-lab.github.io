@@ -5,23 +5,29 @@ permalink: /people/
 ---
 
 <h2 class="people-section-heading">Principal Investigator</h2>
-<div class="people-grid">
-  {% for person in site.data.people.pi %}
-  <div class="person-card">
-    {% if person.photo != "" %}
-      <img src="{{ '/assets/images/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
-    {% else %}
-      <div class="person-photo-placeholder">&#128100;</div>
-    {% endif %}
-    <div class="person-name">{{ person.name }}</div>
-    <div class="person-role">{{ person.role }}</div>
-    {% if person.bio %}<p style="font-size:0.85rem;margin-top:0.5rem">{{ person.bio }}</p>{% endif %}
-    <div class="person-links">
-      {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
-      {% if person.twitter %}<a href="https://twitter.com/{{ person.twitter }}" target="_blank">Twitter</a>{% endif %}
+<div class="pi-section">
+  <div class="pi-photos">
+    {% for person in site.data.people.pi %}
+    <div class="person-card">
+      {% if person.photo != "" %}
+        <img src="{{ '/assets/images/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
+      {% else %}
+        <div class="person-photo-placeholder">&#128100;</div>
+      {% endif %}
+      <div class="person-name">{{ person.name }}</div>
+      <div class="person-role">{{ person.role }}</div>
+      {% if person.bio %}<p style="font-size:0.85rem;margin-top:0.5rem">{{ person.bio }}</p>{% endif %}
+      <div class="person-links">
+        {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+        {% if person.twitter %}<a href="https://twitter.com/{{ person.twitter }}" target="_blank">Twitter</a>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+    <div class="lab-photo-card">
+      <img src="{{ '/assets/images/lab_nov_2025.jpg' | relative_url }}" alt="Edgell Lab November 2025" />
+      <div class="person-role" style="margin-top:0.5rem">Edgell Lab, November 2025</div>
     </div>
   </div>
-  {% endfor %}
 </div>
 
 {% if site.data.people.postdocs.size > 0 %}

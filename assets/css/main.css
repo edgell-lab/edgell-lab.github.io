@@ -325,6 +325,28 @@ h1, h2, h3, h4 {
 }
 
 /* --- People Page --- */
+.pi-section {
+  margin-bottom: 1rem;
+}
+
+.pi-photos {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.lab-photo-card {
+  text-align: center;
+}
+
+.lab-photo-card img {
+  height: 150px;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  object-fit: cover;
+}
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
