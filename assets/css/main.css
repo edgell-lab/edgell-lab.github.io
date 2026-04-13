@@ -376,6 +376,30 @@ h1, h2, h3, h4 {
   margin: 0 0.3rem;
 }
 
+/* Alumni list */
+.alumni-list {
+  list-style: none;
+  padding: 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.alumni-list li {
+  padding: 0.3rem 0;
+  break-inside: avoid;
+}
+
+.alumni-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.alumni-role {
+  font-size: 0.9rem;
+  color: #666;
+}
+
 .people-section-heading {
   font-size: 1.4rem;
   margin: 2.5rem 0 1.25rem;

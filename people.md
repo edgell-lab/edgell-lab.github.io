@@ -75,11 +75,11 @@ permalink: /people/
 {% endif %}
 
 <h2 class="people-section-heading">Alumni</h2>
-<ul class="pub-list">
+<ul class="alumni-list">
   {% for person in site.data.people.alumni %}
-  <li class="pub-entry">
-    <span class="pub-title">{{ person.name }}</span> &mdash;
-    <span class="pub-journal">{{ person.role }}</span>
+  <li>
+    <span class="alumni-name">{{ person.name }}</span> &mdash;
+    <span class="alumni-role">{{ person.role }}</span>
   </li>
   {% endfor %}
 </ul>

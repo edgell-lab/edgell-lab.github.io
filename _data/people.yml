@@ -39,14 +39,83 @@ grad_students:
 undergrads: []
 
 alumni:
-  - name: Dr. Kurt Loedige
-    role: PhD (graduated 2024)
-
-  - name: Dr. Dalton Ham
-    role: PhD (graduated 2023)
+  - name: Kurt Loedige
+    role: PhD
 
   - name: Gary Foo
     role: PhD
 
-  - name: Shannon Slattery
+  - name: Dalton Ham
     role: PhD
+
+  - name: Tyler Browne
+    role: PhD (co-supervised with Greg Gloor)
+
+  - name: Raagul Sivacumar
+    role: MSc
+
+  - name: Rachel Kelly
+    role: PhD (co-supervised with Caroline Schild-Poulter)
+
+  - name: Olha Haydaychuk
+    role: MSc
+
+  - name: Alexa White
+    role: MSc
+
+  - name: Mahsa Farmanbar
+    role: MSc
+
+  - name: Claire Zhang
+    role: MSc
+
+  - name: Gregory Pellegrino
+    role: PhD
+
+  - name: Thomas Hamilton
+    role: PhD
+
+  - name: Sam Slattery
+    role: PhD
+
+  - name: Stephanie Brumwell
+    role: PhD (co-supervised with Bogumil Karas)
+
+  - name: Ryan Cochrane
+    role: PhD (co-supervised with Bogumil Karas)
+
+  - name: Gursimran Parmar
+    role: MSc (co-supervised with Caroline Schild-Poulter)
+
+  - name: Chris Leichthammer
+    role: MSc
+
+  - name: Tuhin Guha
+    role: PDF
+
+  - name: Thomas McMurrough
+    role: PhD
+
+  - name: Jason Wolfs
+    role: PhD
+
+  - name: Ben Kleinstiver
+    role: PhD
+
+  - name: Ewan Gibb
+    role: PhD
+
+  - name: Marc Laforet
+    role: MSc
+
+  - name: Brendon McDowell
+    role: MSc
+
+  - name: Connor Moffat
+    role: MSc
+
+  - name: Gavin Wilson
+    role: MSc
+
+  - name: Jon Carter
+    role: MSc
