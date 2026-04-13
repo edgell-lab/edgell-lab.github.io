@@ -42,20 +42,14 @@ permalink: /people/
 {% endif %}
 
 <h2 class="people-section-heading">Current Graduate Trainees</h2>
-<div class="people-grid">
+<ul class="alumni-list">
   {% for person in site.data.people.grad_students %}
-  <div class="person-card">
-    {% if person.photo != "" %}
-      <img src="{{ '/assets/images/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
-    {% else %}
-      <div class="person-photo-placeholder">&#128100;</div>
-    {% endif %}
-    <div class="person-name">{{ person.name }}</div>
-    <div class="person-role">{{ person.role }}</div>
-    {% if person.bio %}<p style="font-size:0.85rem;margin-top:0.5rem">{{ person.bio }}</p>{% endif %}
-  </div>
+  <li>
+    <span class="alumni-name">{{ person.name }}</span> &mdash;
+    <span class="alumni-role">{{ person.role }}</span>
+  </li>
   {% endfor %}
-</div>
+</ul>
 
 {% if site.data.people.undergrads.size > 0 %}
 <h2 class="people-section-heading">Undergraduate Researchers</h2>
