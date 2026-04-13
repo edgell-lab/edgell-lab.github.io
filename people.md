@@ -48,14 +48,19 @@ permalink: /people/
 {% endif %}
 
 <h2 class="people-section-heading">Current Graduate Trainees</h2>
-<ul class="alumni-list">
+<div class="people-grid">
   {% for person in site.data.people.grad_students %}
-  <li>
-    <span class="alumni-name">{{ person.name }}</span> &mdash;
-    <span class="alumni-role">{{ person.role }}</span>
-  </li>
+  <div class="person-card">
+    {% if person.photo and person.photo != "" %}
+      <img src="{{ '/assets/images/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
+    {% else %}
+      <div class="person-photo-placeholder">&#128100;</div>
+    {% endif %}
+    <div class="person-name">{{ person.name }}</div>
+    <div class="person-role">{{ person.role }}</div>
+  </div>
   {% endfor %}
-</ul>
+</div>
 
 <div class="student-of-month">
   <h3 class="sotm-heading">Oliver, student of the month</h3>

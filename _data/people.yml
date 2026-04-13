@@ -14,30 +14,31 @@ postdocs: []
 grad_students:
   - name: Emily Stuckless
     role: PhD Student
+    photo: "Emily.jpg"
 
   - name: Lian Gai
     role: PhD Student
-    photo: ""
+    photo: "Lian.jpg"
 
   - name: Aathavan Uruthirapathy
     role: MSc Student
-    photo: ""
+    photo: "Aathavan.jpg"
 
   - name: Amani Jaafar
     role: MSc Student
-    photo: ""
+    photo: "Amani.jpg"
 
   - name: Mairwyn Hall
     role: MSc Student
-    photo: ""
+    photo: "Mairwyn.jpg"
 
   - name: Jaime Barrett
     role: MSc Student
-    photo: ""
+    photo: "Jaime.jpg"
 
   - name: Ben Greene
     role: MSc Student
-    photo: ""
+    photo: "Ben.jpg"
 
 undergrads: []
 
