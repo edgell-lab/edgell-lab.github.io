@@ -398,6 +398,28 @@ h1, h2, h3, h4 {
   margin: 0 0.3rem;
 }
 
+/* Student of the Month */
+.student-of-month {
+  margin-top: 1.5rem;
+}
+
+.sotm-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #4F2683;
+  margin-bottom: 0.5rem;
+}
+
+.student-of-month img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  display: block;
+}
+
 /* Alumni list */
 .alumni-list {
   list-style: none;

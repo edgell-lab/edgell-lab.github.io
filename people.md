@@ -57,6 +57,11 @@ permalink: /people/
   {% endfor %}
 </ul>
 
+<div class="student-of-month">
+  <h3 class="sotm-heading">Student of the month</h3>
+  <img src="{{ '/assets/images/oliver.jpg' | relative_url }}" alt="Student of the Month" />
+</div>
+
 {% if site.data.people.undergrads.size > 0 %}
 <h2 class="people-section-heading">Undergraduate Researchers</h2>
 <div class="people-grid">
