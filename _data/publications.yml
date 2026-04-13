@@ -8,6 +8,7 @@
   year: 2026
   url: "https://pubmed.ncbi.nlm.nih.gov/41695711"
   highlight: false
+  cover_image: "browne_2026_graphic.jpg"
 
 - title: "Machine learning reveals sequence and methylation determinants of SaCas9-PAM interactions in bacteria"
   authors: "Ham DT, Browne TS, Zhang CQ, Foo GW, Uruthirapathy AS, Gloor GB, Edgell DR"
@@ -15,6 +16,7 @@
   year: 2026
   url: "https://pubmed.ncbi.nlm.nih.gov/41538317"
   highlight: true
+  cover_image: "Ham_2026_graphical_abstract.jpg"
 
 - title: "Modular determinants of cleavage preference in GIY-YIG nucleases revealed by block-based DNA shuffling and directed evolution"
   authors: "Loedige KW, Hall MA, Ghimirey S, Stead BE, Edgell DR"
@@ -22,6 +24,7 @@
   year: 2026
   url: "https://pubmed.ncbi.nlm.nih.gov/41495900"
   highlight: false
+  cover_image: "Loedige_2025_graphical_abstract.jpg"
 
 # --- 2025 ---
 - title: "A buffer-tuning strategy to profile domain-specific activity of chimeric I-TevI/CRISPR gene editors in vitro"

@@ -48,10 +48,13 @@ title: Home
 
 <div class="latest-pubs">
   <h2>latest publications</h2>
+  {% assign recent = site.data.publications | sort: "year" | reverse %}
   <div class="pub-cards">
-    {% assign recent = site.data.publications | sort: "year" | reverse %}
     {% for pub in recent limit:3 %}
     <div class="pub-card">
+      {% if pub.cover_image and pub.cover_image != "" %}
+        <img src="{{ '/assets/images/' | append: pub.cover_image | relative_url }}" alt="{{ pub.title }}">
+      {% endif %}
       <div class="pub-card-body">
         <h3>
           {% if pub.url != "" %}
