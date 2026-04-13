@@ -331,10 +331,9 @@ h1, h2, h3, h4 {
 
 .pi-photos {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 180px 1fr;
   gap: 2rem;
   align-items: start;
-  justify-content: start;
 }
 
 .lab-photo-card {
@@ -342,8 +341,8 @@ h1, h2, h3, h4 {
 }
 
 .lab-photo-card img {
-  height: 250px;
-  width: 250px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.12);
   object-fit: cover;
