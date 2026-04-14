@@ -2,6 +2,13 @@
 # Fields: title, authors, journal, year, url, highlight
 
 # --- 2026 ---
+- title: "PHYCUT: Scalable Multiplex CRISPR/Cas9 editing for Genome Engineering in the Diatom Phaeodactylum tricornutum"
+  authors: "Stuckless EE, Gai LS, Slattery SS, Dempsey KH, Browne TS, Gloor GB, Edgell DR"
+  journal: "ACS Synthetic Biology"
+  year: 2026
+  url: "https://pubs.acs.org/doi/10.1021/acssynbio.5c00843"
+  highlight: false
+  cover_image: "stuckless_graphic.tif"
 - title: "Better data for better predictions: data curation improves deep learning for sgRNA/Cas9 prediction"
   authors: "Browne TS, Edgell DR, Gloor GB"
   journal: "PeerJ"
