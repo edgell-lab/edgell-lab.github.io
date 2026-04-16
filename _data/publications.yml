@@ -8,6 +8,7 @@
   year: 2026
   url: "https://pubs.acs.org/doi/10.1021/acssynbio.5c00843"
   highlight: true
+  cover_image: "stuckless_graphic.png"
   cover_image: "stuckless_graphic.tif"
   
 - title: "Better data for better predictions: data curation improves deep learning for sgRNA/Cas9 prediction"
