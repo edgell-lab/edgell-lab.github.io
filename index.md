@@ -48,7 +48,7 @@ title: Home
 
 <div class="latest-pubs">
   <h2>latest publications</h2>
-  {% assign recent = site.data.publications | sort: "year" | reverse %}
+  {% assign recent = site.data.publications %}
   <div class="pub-cards">
     {% for pub in recent limit:3 %}
     <div class="pub-card">
